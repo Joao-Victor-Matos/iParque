@@ -4,7 +4,7 @@ interface ButtonProps {
 
 const Button = ({ title }: ButtonProps) => {
   return (
-    <button className="rounded-lg bg-primary px-6 py-3">
+    <button className="rounded-xl bg-primary px-4 py-2">
       <span className="text-white text-xl uppercase">{title}</span>
     </button>
   );
