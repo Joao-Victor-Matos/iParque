@@ -15,6 +15,7 @@ const config: Config = {
       },
       colors: {
         brown: "#794814",
+        browndark: "#492D10",
         primary: "#7FB35B",
       },
     },

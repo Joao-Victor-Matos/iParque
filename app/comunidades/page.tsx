@@ -11,7 +11,7 @@ const Comunidades = () => {
           alt="friends in the park"
           width={700}
           height={500}
-          className="self-center"
+          className="self-center md:w-[600px]"
         />
         <div className="flex flex-col items-center justify-center gap-10">
           <h1 className="text-7xl">Comunidades</h1>
@@ -20,8 +20,7 @@ const Comunidades = () => {
           </blockquote>
         </div>
       </div>
-      <section className="flex gap-28 py-20">
-        <Post title="Fut do vamp" />
+      <section className="flex gap-20 py-20">
         <Post title="Fut do vamp" />
         <Post title="Fut do vamp" />
       </section>

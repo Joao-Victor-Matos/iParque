@@ -2,7 +2,7 @@ import NavBarItem from "@/components/NavBarItem";
 
 const NavBar = () => {
   return (
-    <header className="flex flex-row items-center justify-between px-40 py-8 border-y-2 border-brown">
+    <header className="flex flex-row items-center justify-between px-40 md:px-20 py-8 border-y-2 border-brown">
       <NavBarItem title="iParque" page="/" />
       <div className="flex flex-row items-center justify-center gap-10">
         <NavBarItem title="Home" page="/" />

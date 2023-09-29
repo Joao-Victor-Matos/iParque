@@ -8,7 +8,7 @@ interface NavBarItemProps {
 const NavBarItem = ({ title, page }: NavBarItemProps) => {
   return (
     <Link href={page}>
-      <h1 className="text-2xl font-semibold">{title}</h1>
+      <h1 className="text-2xl md:text-xl font-semibold">{title}</h1>
     </Link>
   );
 };
