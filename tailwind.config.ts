@@ -17,6 +17,7 @@ const config: Config = {
         brown: "#794814",
         browndark: "#492D10",
         primary: "#7FB35B",
+        secondary: "#003D15",
       },
     },
   },
