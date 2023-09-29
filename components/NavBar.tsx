@@ -8,7 +8,7 @@ const NavBar = () => {
         <NavBarItem title="Eventos" page="/eventos" />
         <NavBarItem title="Comunidades" page="/comunidades" />
         <NavBarItem title="Sobre" page="/sobre" />
-        <NavBarItem title="+" page="/criar" round="true" />
+        <NavBarItem title="+" page="/criar" round />
       </div>
     </header>
   );
